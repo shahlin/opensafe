@@ -17,5 +17,9 @@ function validUrl(url) {
         return false;
     }
 
+    if (url.includes("о")) {
+        return false;
+    }
+
     return true;
 }
